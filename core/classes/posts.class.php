@@ -63,7 +63,7 @@ class Posts
     public function userCheck($username)
     {
         self::connectToDB();
-        $this->sql = "SELECT COUNT(*) as count FROM posts WHERE username = ?";
+        $this->sql = "SELECT COUNT(*) as count FROM posts WHERE username = ? group by username having count != 0";
 
         try{
             $this->query = $this->handler->prepare($this->sql);
