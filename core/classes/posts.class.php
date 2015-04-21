@@ -60,4 +60,24 @@ class Posts
         }
     }
 
+    public function userCheck($username)
+    {
+        self::connectToDB();
+        $this->sql = "SELECT COUNT(*) as count FROM posts WHERE username = ?";
+
+        try{
+            $this->query = $this->handler->prepare($this->sql);
+            $this->query->execute(array($username));
+            $this->result = $this->query->fetchAll(PDO::FETCH_ASSOC);
+
+            $this->handler = null;
+            $this->query->closeCursor();
+            return $this->result;
+        }
+        catch(Exception $e){
+            echo "Error: Ошибка с запросом";
+            return false;
+        }
+    }
+
 }

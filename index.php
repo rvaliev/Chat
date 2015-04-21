@@ -1,6 +1,11 @@
 <?php
 
 session_start();
+require_once("core/classes/posts.class.php");
+
+$posts = new Posts();
+
+
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -21,22 +26,44 @@ session_start();
     <?php
     if (isset($_SESSION['message']))
     {
-        echo $_SESSION['message'];
+        echo "<h4>" . $_SESSION['message'] . "<h4>";
     }
     ?>
-    <h4>This username already exists</h4>
 </div>
 </body>
 </html>
 
 <?php
-if (isset($_POST['userBtn'])) {
-    $_SESSION['username'] = $_POST['username'];
+if (isset($_POST['userBtn']))
+{
+    if (empty($_POST['username']))
+    {
+        $_SESSION['message'] = "Username is required";
+        header("Refresh:0");
+    }
+    else
+    {
+        $allPosts = $posts->userCheck($_POST['username']);
+        if ($allPosts[0]['count'] != 0) {
+            $_SESSION['message'] = "Username already exists";
+            header("Refresh:0");
+        }
+        else
+        {
+            $_SESSION['message'] = "";
+            $_SESSION['username'] = $_POST['username'];
+        }
+    }
+
+
 }
 
 if(isset($_SESSION['username']))
 {
     header("Location: chat.php");
 }
+
+
+
 
 ?>
