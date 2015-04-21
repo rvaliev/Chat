@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="92993c92-d117-4ab0-b366-3609715b1049" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/classes/posts.class.php" afterPath="$PROJECT_DIR$/core/classes/posts.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chat.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,16 +48,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posts.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="posts.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/classes/posts.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6005188" vertical-offset="1165" max-vertical-offset="1936">
-              <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+            <state vertical-scroll-proportion="-14.935484" vertical-offset="1165" max-vertical-offset="1936">
+              <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
               <folding>
-                <marker date="1429619681636" expanded="true" signature="438:489" placeholder="SELECT * FRO..posts..." />
-                <marker date="1429619681636" expanded="true" signature="989:1054" placeholder="INSERT INTO ..." />
-                <marker date="1429619681636" expanded="true" signature="1525:1615" placeholder="SELECT COUNT..." />
+                <marker date="1429619949158" expanded="true" signature="438:489" placeholder="SELECT * FRO..posts..." />
+                <marker date="1429619949158" expanded="true" signature="989:1054" placeholder="INSERT INTO ..." />
+                <marker date="1429619949158" expanded="true" signature="1525:1615" placeholder="SELECT COUNT..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aze.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aaaaaaaa/aze.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="784">
+              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,6 +108,7 @@
         <option value="$PROJECT_DIR$/core/includes/functions.inc.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/core/classes/posts.class.php" />
+        <option value="$PROJECT_DIR$/aaaaaaaa/aze.php" />
       </list>
     </option>
   </component>
@@ -198,6 +210,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="aaaaaaaa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -264,7 +290,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2540453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2540453" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -354,13 +380,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/classes/posts.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6005188" vertical-offset="1165" max-vertical-offset="1936">
-          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+        <state vertical-scroll-proportion="-14.935484" vertical-offset="1165" max-vertical-offset="1936">
+          <caret line="74" column="33" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
           <folding>
-            <marker date="1429619681636" expanded="true" signature="438:489" placeholder="SELECT * FRO..posts..." />
-            <marker date="1429619681636" expanded="true" signature="989:1054" placeholder="INSERT INTO ..." />
-            <marker date="1429619681636" expanded="true" signature="1525:1615" placeholder="SELECT COUNT..." />
+            <marker date="1429619949158" expanded="true" signature="438:489" placeholder="SELECT * FRO..posts..." />
+            <marker date="1429619949158" expanded="true" signature="989:1054" placeholder="INSERT INTO ..." />
+            <marker date="1429619949158" expanded="true" signature="1525:1615" placeholder="SELECT COUNT..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aaaaaaaa/aze.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="784">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
