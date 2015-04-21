@@ -50,12 +50,12 @@
       <file leaf-file-name="posts.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/classes/posts.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37224385" vertical-offset="1165" max-vertical-offset="1936">
-              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6005188" vertical-offset="1165" max-vertical-offset="1936">
+              <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
               <folding>
-                <marker date="1429619375576" expanded="true" signature="438:489" placeholder="SELECT * FRO..posts..." />
-                <marker date="1429619375576" expanded="true" signature="989:1054" placeholder="INSERT INTO ..." />
-                <marker date="1429619375576" expanded="true" signature="1525:1615" placeholder="SELECT COUNT..." />
+                <marker date="1429619681636" expanded="true" signature="438:489" placeholder="SELECT * FRO..posts..." />
+                <marker date="1429619681636" expanded="true" signature="989:1054" placeholder="INSERT INTO ..." />
+                <marker date="1429619681636" expanded="true" signature="1525:1615" placeholder="SELECT COUNT..." />
               </folding>
             </state>
           </provider>
@@ -354,12 +354,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/classes/posts.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37224385" vertical-offset="1165" max-vertical-offset="1936">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6005188" vertical-offset="1165" max-vertical-offset="1936">
+          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
           <folding>
-            <marker date="1429619375576" expanded="true" signature="438:489" placeholder="SELECT * FRO..posts..." />
-            <marker date="1429619375576" expanded="true" signature="989:1054" placeholder="INSERT INTO ..." />
-            <marker date="1429619375576" expanded="true" signature="1525:1615" placeholder="SELECT COUNT..." />
+            <marker date="1429619681636" expanded="true" signature="438:489" placeholder="SELECT * FRO..posts..." />
+            <marker date="1429619681636" expanded="true" signature="989:1054" placeholder="INSERT INTO ..." />
+            <marker date="1429619681636" expanded="true" signature="1525:1615" placeholder="SELECT COUNT..." />
           </folding>
         </state>
       </provider>

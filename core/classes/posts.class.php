@@ -72,7 +72,7 @@ class Posts
 
             $this->handler = null;
             $this->query->closeCursor();
-            return $this->result;
+            return $this->result; 
         }
         catch(Exception $e){
             echo "Error: Ошибка с запросом";
