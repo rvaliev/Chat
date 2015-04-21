@@ -1,5 +1,7 @@
 <?php
 
+require_once("config.php");
+
 class Dbc
 {
     private $handler;
@@ -10,10 +12,10 @@ class Dbc
         {
             $this->handler = new PDO('mysql:
             host=localhost;
-            dbname=chat;
+            dbname=$dbName;
             charset=utf8',
-                'root',
-                '',
+                '$dbUser',
+                '$dbPassword',
                 array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
 
             $this->handler->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
