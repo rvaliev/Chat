@@ -1,0 +1,73 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper2
+{
+    width: 300px;
+    margin: 350px auto 0 auto;
+}
+
+.loginForm input
+{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.wrapper2 h1, .wrapper2 h4
+{
+    text-align: center;
+}
+
+.wrapper
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chatwrapper
+{
+    margin-top: 25px;
+    position: fixed;
+    bottom: 0;
+    background: #171717;
+    width: 100%;
+    padding: 25px 0 25px 0;
+}
+
+.chat
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.message
+{
+    width: 100%;
+}
+
+.bottomSpace
+{
+    height: 150px;
+}
+
+.logout
+{
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+
+.logout:hover
+{
+    text-decoration: underline;
+}
